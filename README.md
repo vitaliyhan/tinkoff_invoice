@@ -1,4 +1,4 @@
-# tinkoff_invoice
+# Tinkoff Business invoice sender.
 Tinkoff Business invoice sender. Класс для выставление счета для пользователей  Tinkoff.Business используя ныне скрытые, но рабочие методы [https://openapi.tinkoff.ru](https://openapi.tinkoff.ru) выставления счета
 
 
