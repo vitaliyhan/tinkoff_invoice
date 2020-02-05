@@ -66,6 +66,9 @@ class tinkoff_invoice
             'name' => $bank_info['name'],
             'inn' => $bank_info["inn"],
             'address' => $bank_info['address'],
+			'bank'=>[
+        'name'=> ''
+        ],
         ];
         $payment = [
             'dueDate' => date('c', mktime(0, 0, 0, date("m") + 1, date("d"), date("Y"))),
